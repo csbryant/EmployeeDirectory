@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import DataTable from "./DataTable";
-import Nav from "./Nav";
-import API from "../utils/API";
-import "../styles/DataArea.css";
+import DataTable from "../DataTable";
+import Nav from "../Nav";
+import API from "../../utils/API";
+import "./DataArea.css";
 
 export default class DataArea extends Component {
   state = {

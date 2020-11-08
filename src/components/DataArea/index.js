@@ -37,9 +37,14 @@ export default class DataArea extends Component {
           return 1;
         } else if (b[heading] === undefined) {
           return -1;
-        }
+        } else if (heading === "phone") {
+          return a[heading].localeCompare(b[heading]);
+        } else if (heading === "email") {
+          return a[heading].localeCompare(b[heading]);
+        } else if (heading === "dob") {
+          return a[heading].date.localeCompare(b[heading].date);
         // numerically
-        else if (heading === "name") {
+        } else if (heading === "name") {
           return a[heading].first.localeCompare(b[heading].first);
         } else {
           return a[heading] - b[heading];
@@ -50,6 +55,12 @@ export default class DataArea extends Component {
           return 1;
         } else if (b[heading] === undefined) {
           return -1;
+        } else if (heading === "phone") {
+          return b[heading].localeCompare(a[heading]);
+        } else if (heading === "email") {
+          return b[heading].localeCompare(a[heading]);
+        } else if (heading === "dob") {
+          return b[heading].date.localeCompare(a[heading].date);
         }
         // numerically
         else if (heading === "name") {
@@ -79,6 +90,7 @@ export default class DataArea extends Component {
 
   componentDidMount() {
     API.getUsers().then(results => {
+      console.log(results);
       this.setState({
         users: results.data.results,
         filteredUsers: results.data.results

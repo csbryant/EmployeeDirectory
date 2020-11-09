@@ -6,7 +6,7 @@ Employee Directory is a React App that displays a directory of a company's emplo
 
 <img src="https://github.com/csbryant/EmployeeDirectory/blob/main/public/ScreenShots/Screen%20Shot%202020-11-08%20at%204.03.29%20PM.png?raw=true" />
 
-A user is able to search any user by typing in the search bar.
+A user is able to search any company member by typing in the search bar.
 
 <img src="https://github.com/csbryant/EmployeeDirectory/blob/main/public/ScreenShots/Screen%20Shot%202020-11-08%20at%204.04.26%20PM.png?raw=true" />
 

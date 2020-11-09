@@ -4,7 +4,7 @@ Employee Directory is a React App that displays a directory of a company's emplo
 
 <a href="https://cryptic-reaches-26859.herokuapp.com/">Link to App</a>
 
-<img src="https://github.com/csbryant/BudgetTracker/blob/main/public/screenshots/Screen%20Shot%202020-11-04%20at%2011.23.42%20AM.png?raw=true" />
+<img src="https://github.com/csbryant/EmployeeDirectory/blob/main/public/ScreenShots/Screen%20Shot%202020-11-08%20at%204.03.29%20PM.png?raw=true" />
 
 A user is able to search any user by typing in the search bar.
 

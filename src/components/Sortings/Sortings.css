@@ -1,0 +1,19 @@
+.sortings .col {
+  cursor: pointer;
+}
+
+.sortings .col .pointer:after {
+  font-size: 88%;
+  content: "";
+  margin-right: 16px;
+}
+
+.sortings .col .pointer:hover:after {
+  font-size: 88%;
+  content: "⬇";
+  margin-right: 0;
+}
+
+.table {
+width: auto;
+}

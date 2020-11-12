@@ -1,7 +1,7 @@
 import React from "react";
-import "./DataBody.css";
+import "./Cards.css";
 
-function DataBody({ users }) {
+function Cards({ users }) {
   function formatDate(date) {
     const dateArray = date.split("-");
     const year = dateArray[0];
@@ -25,7 +25,7 @@ function DataBody({ users }) {
                   className="img-responsive"
                 />
               </td>
-              <td data-th="Name" className="name-cell align-middle">
+              <td data-th="Name" className="employee-names align-middle">
                 {name.first} {name.last}
               </td>
               <td data-th="Phone" className="align-middle">
@@ -49,4 +49,4 @@ function DataBody({ users }) {
   );
 }
 
-export default DataBody;
+export default Cards;

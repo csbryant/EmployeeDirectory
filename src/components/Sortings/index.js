@@ -1,13 +1,13 @@
 import React from "react";
-import DataBody from "../DataBody";
-import "./DataTable.css";
+import Cards from "../Cards";
+import "./Sortings.css";
 
-function DataTable({ headings, users, handleSort }) {
+function Sortings({ headings, users, handleSort }) {
   return (
-    <div className="datatable mt-5">
+    <div className="sortings mt-5">
       <table
         id="table"
-        className="table table-striped table-hover table-condensed"
+        className="table table-striped table-hover"
       >
         <thead>
           <tr>
@@ -29,10 +29,10 @@ function DataTable({ headings, users, handleSort }) {
           </tr>
         </thead>
 
-        <DataBody users={users} />
+        <Cards users={users} />
       </table>
     </div>
   );
 }
 
-export default DataTable;
+export default Sortings;

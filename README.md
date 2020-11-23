@@ -2,7 +2,7 @@
 
 Employee Directory is a React App that displays a directory of a company's employees.
 
-<a href="https://limitless-hollows-51768.herokuapp.com/">Link to App</a>
+<a href="https://csbryant.github.io/EmployeeDirectory/">Link to App</a>
 
 <img src="https://github.com/csbryant/EmployeeDirectory/blob/main/public/Images/Screen%20Shot%202020-11-11%20at%206.03.15%20PM.png?raw=true" />
 
